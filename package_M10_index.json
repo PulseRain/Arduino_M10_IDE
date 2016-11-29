@@ -10,7 +10,7 @@
       "websiteURL": "http://M10.pulserain.com",
       "platforms": [
        {
-          "name": "M10",
+          "name": "PulseRain M10",
           "architecture": "FP51",
           "version": "1.2.0",
           "category": "FP51",
@@ -22,7 +22,7 @@
             "online": "http://M10.pulserain.com"
           },
           "boards": [
-            {"name": "M10"}
+            {"name": "PulseRain M10"}
           ],
           "toolsDependencies": [
             {
