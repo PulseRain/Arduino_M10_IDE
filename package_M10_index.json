@@ -26,12 +26,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "M10",
+              "packager": "PulseRain M10",
               "version": "1.0.0",
               "name": "M10_upload"
             },
             {
-              "packager": "M10",
+              "packager": "PulseRain M10",
               "version": "1.1.0",
               "name": "M10_compiler"
             }
