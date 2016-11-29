@@ -1,0 +1,71 @@
+{
+   "packages": [
+     {
+      "name": "M10",
+      "maintainer": "PulseRain Technology, LLC",
+      "email": "info@pulserain.com",
+      "help": {
+        "online": "http://M10.pulserain.com"
+      },
+      "websiteURL": "http://M10.pulserain.com",
+      "platforms": [
+       {
+          "name": "M10",
+          "architecture": "FP51",
+          "version": "1.2.0",
+          "category": "FP51",
+          "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/FP51_1.2.0.tar.gz",
+          "archiveFileName": "FP51_1.2.0.tar.gz",
+          "checksum": "SHA-256:fc2168c2ea1fc02811d1aa346a25dcca2a07eeaeb856c06a06b7d96b9ddfe719",
+          "size": "5297",
+          "help": {
+            "online": "http://M10.pulserain.com"
+          },
+          "boards": [
+            {"name": "M10"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "M10",
+              "version": "1.0.0",
+              "name": "M10_upload"
+            },
+            {
+              "packager": "M10",
+              "version": "1.1.0",
+              "name": "M10_compiler"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "1.0.0",
+          "name": "M10_upload",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_upload_1.0.0.tar.gz",
+              "archiveFileName": "M10_upload_1.0.0.tar.gz",
+              "checksum": "SHA-256:fb16c378d05ccdbee0ceb559e535cc73af5d6932107d6bfcb84e79384e27dd51",
+              "size": "6219745"
+            }
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "name": "M10_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_compiler_1.1.0.tar.gz",
+              "archiveFileName": "M10_compiler_1.1.0.tar.gz",
+              "checksum": "SHA-256:0392d918f7a78ccb9b242d079ca8b443152574e3bb2ef8311442c41b7198cbf5",
+              "size": "59695336"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
