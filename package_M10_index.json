@@ -16,7 +16,7 @@
           "category": "FP51",
           "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/FP51_1.3.4.tar.gz",
           "archiveFileName": "FP51_1.3.4.tar.gz",
-          "checksum": "SHA-256:6af648e9eae5cdfa4f9bba761e84780fcf01cd6a08fdfd3af0dcb6ff6e406112",
+          "checksum": "SHA-256:65ea8fc8a959fe1428cbab1eee9898a611bf5e0d4ec5d40de70c95cf06211729",
           "size": "8521",
           "help": {
             "online": "http://M10.pulserain.com"
@@ -47,7 +47,7 @@
               "host": "i686-mingw32",
               "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_upload_1.1.0.tar.gz",
               "archiveFileName": "M10_upload_1.1.0.tar.gz",
-              "checksum": "SHA-256:be8c82164c04ad6c929d4c1ddbf8730963d151b05b99cc95226fe76de0d0a06a",
+              "checksum": "SHA-256:dd6bd82a707db72eb93055f82739beff26e246da2fe9d8632a36071a0452abb4",
               "size": "6257829"
             }
           ]
@@ -60,7 +60,7 @@
               "host": "i686-mingw32",
               "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_compiler_1.2.2.tar.gz",
               "archiveFileName": "M10_compiler_1.2.2.tar.gz",
-              "checksum": "SHA-256:3641a8567eb9590df33540e49b1758488f1680fcf86737e47edbf524fb3036ed",
+              "checksum": "SHA-256:442fba6587866894d1060ba4998627d811117574ed85ea293093a325a48ab402",
               "size": "53173851"
             }
           ]
