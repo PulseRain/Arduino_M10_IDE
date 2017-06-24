@@ -1,6 +1,15 @@
 {
    "packages": [
      {
+      "name": "PulseRain_M10",
+      "maintainer": "PulseRain Technology, LLC",
+      "email": "info@pulserain.com",
+      "help": {
+        "online": "http://M10.pulserain.com"
+      },
+      "websiteURL": "http://M10.pulserain.com",
+      "platforms": [
+       {
           "name": "PulseRain_M10",
           "architecture": "FP51",
           "version": "1.3.5",
@@ -27,16 +36,7 @@
               "name": "M10_compiler"
             }
           ]
-     },
-     {
-      "name": "PulseRain_M10",
-      "maintainer": "PulseRain Technology, LLC",
-      "email": "info@pulserain.com",
-      "help": {
-        "online": "http://M10.pulserain.com"
-      },
-      "websiteURL": "http://M10.pulserain.com",
-      "platforms": [
+       },
        {
           "name": "PulseRain_M10",
           "architecture": "FP51",
