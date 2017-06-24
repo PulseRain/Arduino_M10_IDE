@@ -1,6 +1,34 @@
 {
    "packages": [
      {
+          "name": "PulseRain_M10",
+          "architecture": "FP51",
+          "version": "1.3.5",
+          "category": "FP51",
+          "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/FP51_1.3.5.tar.gz",
+          "archiveFileName": "FP51_1.3.5.tar.gz",
+          "checksum": "SHA-256:d9d7bf26cb575ba94da42b2a08f5bb62f6ec23a068d0646878e1ee909de3525b",
+          "size": "8489",
+          "help": {
+            "online": "http://M10.pulserain.com"
+          },
+          "boards": [
+            {"name": "PulseRain_M10"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_M10",
+              "version": "1.1.0",
+              "name": "M10_upload"
+            },
+            {
+              "packager": "PulseRain_M10",
+              "version": "1.2.2",
+              "name": "M10_compiler"
+            }
+          ]
+     },
+     {
       "name": "PulseRain_M10",
       "maintainer": "PulseRain Technology, LLC",
       "email": "info@pulserain.com",
@@ -47,7 +75,7 @@
               "host": "i686-mingw32",
               "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_upload_1.1.0.tar.gz",
               "archiveFileName": "M10_upload_1.1.0.tar.gz",
-              "checksum": "SHA-256:dd6bd82a707db72eb93055f82739beff26e246da2fe9d8632a36071a0452abb4",
+              "checksum": "SHA-256:7a07b38a20b4519d8e9147255fd684bfca65459eaf52b1561aaef581f4711616",
               "size": "6257829"
             }
           ]
@@ -60,7 +88,7 @@
               "host": "i686-mingw32",
               "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_compiler_1.2.2.tar.gz",
               "archiveFileName": "M10_compiler_1.2.2.tar.gz",
-              "checksum": "SHA-256:442fba6587866894d1060ba4998627d811117574ed85ea293093a325a48ab402",
+              "checksum": "SHA-256:954bb6268b6f90e27ab8dac31b75cb7277bca95cbc6cfb75cec2fae4eefde4d1",
               "size": "53173851"
             }
           ]
