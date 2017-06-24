@@ -3,5 +3,6 @@
 3) copy M10_upload folder
 4) change the version in FP51/platform.txt, (such as version=1.3.1)
 5) change version in package_release.sh
-6) run package_release.sh > package_M10_index.json
+6) run package_release.sh > t.txt
+7) merge t.txt to package_M10_index.json, copy platform and tools
 7) commint to github
