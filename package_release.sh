@@ -18,9 +18,9 @@
 #
 ###############################################################################
 
-FP51_version=1.3.5
+FP51_version=1.3.6
 M10_compiler_version=1.2.2
-M10_upload_version=1.1.0
+M10_upload_version=1.2.0
 
 
 FP51_pkg_name="FP51_"
