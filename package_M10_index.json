@@ -129,7 +129,7 @@
               "host": "i686-mingw32",
               "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_compiler_1.2.2.tar.gz",
               "archiveFileName": "M10_compiler_1.2.2.tar.gz",
-              "checksum": "SHA-256:954bb6268b6f90e27ab8dac31b75cb7277bca95cbc6cfb75cec2fae4eefde4d1",
+              "checksum": "SHA-256:7dba1edcd9004646de41b4fb80c990612422e8ef73796abaaa5259c1c3e389ef",
               "size": "53173851"
             }
           ]
