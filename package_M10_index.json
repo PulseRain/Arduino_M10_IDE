@@ -12,6 +12,34 @@
        {
           "name": "PulseRain_M10",
           "architecture": "FP51",
+          "version": "1.3.7",
+          "category": "FP51",
+          "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/FP51_1.3.7.tar.gz",
+          "archiveFileName": "FP51_1.3.7.tar.gz",
+          "checksum": "SHA-256:b13eefa1ae13c7ba0ba733a3fbcc2033418732ab533edb7c2d85d16a4a1e97fb",
+          "size": "8486",
+          "help": {
+            "online": "http://M10.pulserain.com"
+          },
+          "boards": [
+            {"name": "PulseRain_M10"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "PulseRain_M10",
+              "version": "1.2.0",
+              "name": "M10_upload"
+            },
+            {
+              "packager": "PulseRain_M10",
+              "version": "1.2.3",
+              "name": "M10_compiler"
+            }
+          ]
+       },
+       {
+          "name": "PulseRain_M10",
+          "architecture": "FP51",
           "version": "1.3.6",
           "category": "FP51",
           "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/FP51_1.3.6.tar.gz",
@@ -118,6 +146,19 @@
               "archiveFileName": "M10_upload_1.1.0.tar.gz",
               "checksum": "SHA-256:7a07b38a20b4519d8e9147255fd684bfca65459eaf52b1561aaef581f4711616",
               "size": "6257829"
+            }
+          ]
+        },
+        {
+          "version": "1.2.3",
+          "name": "M10_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/M10_compiler_1.2.3.tar.gz",
+              "archiveFileName": "M10_compiler_1.2.3.tar.gz",
+              "checksum": "SHA-256:b857f3f1913665ba188fdb998d7b28f52d303f7a0ad35e979b5d6d70076912af",
+              "size": "53171158"
             }
           ]
         },
