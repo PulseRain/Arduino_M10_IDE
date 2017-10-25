@@ -1,0 +1,36 @@
+############################################################
+# PulseRain M10
+############################################################
+
+M10.name=PulseRain M10
+M10.group=PulseRain
+
+# new items
+M10.platform=FP51
+M10.build.board=_BOARD_PULSERAIN_M10_
+
+M10.ccflags=ffff
+M10.ldscript=M10.ld
+
+M10.compiler.c.extra_flags= -c 
+M10.compiler.cpp.extra_flags= -c
+
+M10.upload.protocol=UART
+M10.upload.maximum_size=32768
+M10.upload.maximum_data_size=8192
+M10.upload.speed=921600
+M10.upload.tool=M10_upload
+
+
+M10.bootloader.low_fuses=0xff
+M10.bootloader.high_fuses=0xdd
+M10.bootloader.extended_fuses=0x00
+#M10.bootloader.path=not-supported
+#M10.bootloader.file=not-supported
+M10.bootloader.unlock_bits=0x3F
+M10.bootloader.lock_bits=0x0F
+
+M10.build.mcu=FP51
+M10.build.f_cpu=100000000L
+M10.build.core=FP51
+M10.build.variant=FP51_fast
