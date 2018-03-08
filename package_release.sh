@@ -18,8 +18,8 @@
 #
 ###############################################################################
 
-FP51_version=1.3.8
-M10_compiler_version=1.2.3
+FP51_version=2.0.0
+M10_compiler_version=1.2.4
 M10_upload_version=1.2.0
 
 
@@ -54,7 +54,7 @@ size_M10_upload=$(stat -c %s ./package/$M10_upload_name)
 echo '{'
 echo '   "packages": ['
 echo '     {'
-echo '      "name": "PulseRain_M10",'
+echo '      "name": "StepFPGA_M10",'
 echo '      "maintainer": "PulseRain Technology, LLC",'
 echo '      "email": "info@pulserain.com",'
 echo '      "help": {'
@@ -63,11 +63,11 @@ echo '      },'
 echo '      "websiteURL": "http://M10.pulserain.com",'
 echo '      "platforms": ['
 echo '       {'
-echo '          "name": "PulseRain_M10",'
+echo '          "name": "StepFPGA_M10",'
 echo '          "architecture": "FP51",'
 echo "          \"version\": \"$FP51_version\","
 echo '          "category": "FP51",'
-echo "          \"url\": \"https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/$FP51_pkg_name\","
+echo "          \"url\": \"https://github.com/PulseRain/Arduino_M10_IDE/raw/step_fpga/package/$FP51_pkg_name\","
 echo "          \"archiveFileName\": \"$FP51_pkg_name\","
 echo "          \"checksum\": \"SHA-256:$sha256_FP51\","
 echo "          \"size\": \"$size_FP51\","
@@ -75,16 +75,16 @@ echo '          "help": {'
 echo '            "online": "http://M10.pulserain.com"'
 echo '          },'
 echo '          "boards": ['
-echo '            {"name": "PulseRain_M10"}'
+echo '            {"name": "StepFPGA_M10"}'
 echo '          ],'
 echo '          "toolsDependencies": ['
 echo '            {'
-echo '              "packager": "PulseRain_M10",'
+echo '              "packager": "StepFPGA_M10",'
 echo "              \"version\": \"$M10_upload_version\","
 echo '              "name": "M10_upload"'
 echo '            },'
 echo '            {'
-echo '              "packager": "PulseRain_M10",'
+echo '              "packager": "StepFPGA_M10",'
 echo "              \"version\": \"$M10_compiler_version\","
 echo '              "name": "M10_compiler"'
 echo '            }'
@@ -98,7 +98,7 @@ echo '          "name": "M10_upload",'
 echo '          "systems": ['
 echo '            {'
 echo '              "host": "i686-mingw32",'
-echo "              \"url\": \"https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/$M10_upload_name\","
+echo "              \"url\": \"https://github.com/PulseRain/Arduino_M10_IDE/raw/step_fpga/package/$M10_upload_name\","
 echo "              \"archiveFileName\": \"$M10_upload_name\","
 echo "              \"checksum\": \"SHA-256:$sha256_M10_upload\","
 echo "              \"size\": \"$size_M10_upload\""
@@ -111,7 +111,7 @@ echo '          "name": "M10_compiler",'
 echo '          "systems": ['
 echo '            {'
 echo '              "host": "i686-mingw32",'
-echo "              \"url\": \"https://github.com/PulseRain/Arduino_M10_IDE/raw/master/package/$M10_compiler_name\","
+echo "              \"url\": \"https://github.com/PulseRain/Arduino_M10_IDE/raw/step_fpga/package/$M10_compiler_name\","
 echo "              \"archiveFileName\": \"$M10_compiler_name\","
 echo "              \"checksum\": \"SHA-256:$sha256_M10_compiler\","
 echo "              \"size\": \"$size_M10_compiler\""

@@ -2,7 +2,7 @@
 # PulseRain M10
 ############################################################
 
-M10.name=PulseRain M10
+M10.name=StepFPGA M10
 M10.group=PulseRain
 
 # new items

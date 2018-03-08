@@ -13,7 +13,7 @@
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
    GNU General Public License for more details.
 
-   You should have received a copy of the GNU General Public License 
+   You should have received a copy of the GNU General Public License
    along with this library; see the file COPYING. If not, write to the
    Free Software Foundation, 51 Franklin Street, Fifth Floor, Boston,
    MA 02110-1301, USA.
@@ -189,6 +189,10 @@ __sfr __at (0xD2) I2C_ADDR_DATA;
 __sfr __at (0xD3) PWM_CSR;
 __sfr __at (0xD4) PWM_DATA;
 
+__sfr __at (0xD5) PS2_CSR ;
+__sfr __at (0xD6) PS2_DATA ;
+
+
 
 __sfr __at (0xD7) SD_CSR;
 __sfr __at (0xD8) SD_CMD;
@@ -242,5 +246,7 @@ __sfr __at (0xFC) SRAM_ADDRESS1 ;
 __sfr __at (0xFD) SRAM_ADDRESS0 ;
 __sfr __at (0xFE) SRAM_CSR ;
 
+
+__sfr __at (0xFF) ROTARY_ENCODER ;
 
 #endif
