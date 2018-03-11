@@ -183,6 +183,10 @@ __sbit __at (0xD7) CY   ;
 
 __sfr __at (0xE7) _XPAGE;
 
+
+__sfr __at (0xC1) LCD_CSR ;
+__sfr __at (0xC2) LCD_DATA ;
+
 __sfr __at (0xD1) I2C_CSR;
 __sfr __at (0xD2) I2C_ADDR_DATA;
 
