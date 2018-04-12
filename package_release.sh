@@ -18,8 +18,8 @@
 #
 ###############################################################################
 
-FP51_version=2.0.3
-M10_compiler_version=1.2.7
+FP51_version=2.0.4
+M10_compiler_version=1.2.8
 M10_upload_version=1.2.1
 
 

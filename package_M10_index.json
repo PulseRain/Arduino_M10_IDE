@@ -12,6 +12,34 @@
         {
           "name": "StepFPGA_M10",
           "architecture": "FP51",
+          "version": "2.0.4",
+          "category": "FP51",
+          "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/step_fpga/package/FP51_2.0.4.tar.gz",
+          "archiveFileName": "FP51_2.0.4.tar.gz",
+          "checksum": "SHA-256:8b8516bae58055549c47083db301eb48a2ed592baa7f1f0bd78e1239ee490015",
+          "size": "8663",
+          "help": {
+            "online": "http://M10.pulserain.com"
+          },
+          "boards": [
+            {"name": "StepFPGA_M10"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "StepFPGA_M10",
+              "version": "1.2.1",
+              "name": "M10_upload"
+            },
+            {
+              "packager": "StepFPGA_M10",
+              "version": "1.2.8",
+              "name": "M10_compiler"
+            }
+          ]
+        },
+        {
+          "name": "StepFPGA_M10",
+          "architecture": "FP51",
           "version": "2.0.3",
           "category": "FP51",
           "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/step_fpga/package/FP51_2.0.3.tar.gz",
@@ -172,6 +200,19 @@
               "archiveFileName": "M10_upload_1.2.0.tar.gz",
               "checksum": "SHA-256:abd0212ed02b622a1504ab5b99b88fa5690d9ea912abe3f8d3864f217fa1f4f2",
               "size": "6258961"
+            }
+          ]
+        },
+        {
+          "version": "1.2.8",
+          "name": "M10_compiler",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/PulseRain/Arduino_M10_IDE/raw/step_fpga/package/M10_compiler_1.2.8.tar.gz",
+              "archiveFileName": "M10_compiler_1.2.8.tar.gz",
+              "checksum": "SHA-256:ce72e120fd78b5b4cd5cec7c196a0476d181ed067ac49c3d92fa80cfa1bf61d0",
+              "size": "53145453"
             }
           ]
         },
